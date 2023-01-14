@@ -1,0 +1,139 @@
+/* fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+
+/* common styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+
+}
+
+/* header styles */
+
+.header-container {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    padding-top: 30px;
+    height: 1500px;
+    
+
+
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 230px;
+    padding-top: 0px;
+}
+
+.nav-name{
+    display: flex;
+    gap: 40px;
+    justify-content:center;
+    margin-left: 1080px;
+}
+.nav-name p{
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+/* banner styles */
+.banner-title{
+    font-size: 64px;
+    text-align: center;
+   
+}
+.banner-discription{
+    text-align: center;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+    margin-top: -30px;
+}
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FD6E0A;
+    margin: 0px 870px 32px 870px;
+}
+.banner-img{
+    margin: 40px 240px 45px 240px;
+    border-radius: 8px;
+    width: 1440px;
+    height: 700px;
+}
+/* main section styles */
+/* team styles */
+.team-container{
+    margin-top: 85px;
+     margin-left: 300px;
+}
+.team-pic{
+    display: grid;
+    grid-template-columns: repeat(2, 360px);
+    row-gap: 22px;
+    column-gap:-40px;
+    align-items: center;
+    
+}
+.team-container{
+    display: flex;
+}
+.headline{
+    font-size: 45px;
+    margin-top: 287px;
+    margin-left: 76px;
+    margin-right: 367px;
+    margin-bottom: 24px;
+}
+.hd-color-1{
+    color:#727272;
+}
+.hd-color-2{
+    color:#FF900E;
+}
+.discription{
+    font-size: 16px;
+    color:#727272;
+    margin-left: 76px;
+    
+}
+.btn-team{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FD6E0A;
+    margin-left: 76px;
+}
+/* experience styles  */
+.experiance{
+    margin: 130px 240px;
+}
+.exp-heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.vl{
+    border-left: 5px solid #FF900E;
+    height: 106px;
+}
+.exp-sub-head{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
