@@ -6,8 +6,8 @@
 /* common styles */
 body {
     font-family: 'Work Sans', sans-serif;
-    /* margin: 0;
-    padding: 0; */
+     margin: 0;
+    padding: 0; 
 
 }
 
@@ -15,16 +15,21 @@ body {
 
 .header-container {
     background-color: rgba(255, 144, 14, 0.1);
-    width: 100%;
+    width:100%;
     padding-top: 30px;
     height: 1500px;
 }
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
 
-.nav-title {
+.nav-title h5 {
     font-size: 45px;
     font-weight: 700;
-    margin-left: 230px;
-    padding-top: 0px;
+    margin: 0;
+  
 }
 
 .nav-name {
@@ -309,7 +314,7 @@ body {
     font-weight: 400;
     color: #727272;
 }
-/* footer styls  */
+/* footer styles  */
 .footer-bg{
     background-color:  #FFF4E7;
     margin:145px 240px 216px 240px;
@@ -325,7 +330,7 @@ body {
 }
 /* Media Quire styles */
 /* For small device  */
-@media only screen and (max-width: 688px){
+@media only screen and (max-width: 576px){
 .header-container{
     width: 100%;
     text-align: center;
@@ -337,18 +342,26 @@ body {
     width: 80%;
 
  }
+ .nav_container {
+   
+    flex-direction: column;
+    justify-content: space-between;
+
+}
  .nav-name, .team-container,.fact-box-container, .exprience-container, .spo-icon{
 
-    flex-direction: column;
-    margin-left: 100px;
-    width: 70%;
+       flex-direction: column;
+    margin-left: 0;
+    width: 0;
  }
  .banner-img{
     width: 100%;
     margin-left: 50px;
+    height: 400px;
  }
  .team-pic{
     grid-template-columns: repeat(1, 1fr);
+    
  }
  
  .exp-sub-head{
@@ -382,5 +395,3 @@ body {
  }
  }
  
-    
-
