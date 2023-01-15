@@ -287,12 +287,15 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
  }
+ .scope-text:hover{
+    background-color: aquamarine;
+ }
 .scope-text{
     margin-top: 50px;
     background-color: #FFFFFF;
     text-align: center;
     width: 586px;
-    height: 171px;
+    height: 250px;
     box-shadow:0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
 }
@@ -320,3 +323,64 @@ body {
     text-align: center;
     padding-top: 40px;
 }
+/* Media Quire styles */
+/* For small device  */
+@media only screen and (max-width: 688px){
+.header-container{
+    width: 100%;
+    text-align: center;
+
+}
+ .nav-title, .banner-title, .btn-primary {
+    margin-left: 50px;
+    text-align: center;
+    width: 80%;
+
+ }
+ .nav-name, .team-container,.fact-box-container, .exprience-container, .spo-icon{
+
+    flex-direction: column;
+    margin-left: 100px;
+    width: 70%;
+ }
+ .banner-img{
+    width: 100%;
+    margin-left: 50px;
+ }
+ .team-pic{
+    grid-template-columns: repeat(1, 1fr);
+ }
+ 
+ .exp-sub-head{
+    padding-top: 20px;
+    width: 70%;
+ }
+ .arc img{
+    height: 400px;
+    width: 400px;
+
+ }
+ .exp-btn{
+   padding-bottom: 100px;
+ }
+ .blogs-container{
+    height: 200px;
+    width: 200px;
+ }
+ .scope-container{
+    grid-template-columns: repeat(1, 1fr);
+ }
+ .scope-text{
+    height: 450px;
+    width: 250px;
+    margin-left: 70px;
+ }
+ .footer-bg{
+    width: 400px;
+    height: 400;
+    /* margin-right: 120px; */
+ }
+ }
+ 
+    
+
