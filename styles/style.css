@@ -306,3 +306,17 @@ body {
     font-weight: 400;
     color: #727272;
 }
+/* footer styls  */
+.footer-bg{
+    background-color:  #FFF4E7;
+    margin:145px 240px 216px 240px;
+    width: 1440px;
+    height: 100px;
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+    text-align: center;
+    padding-top: 40px;
+}
