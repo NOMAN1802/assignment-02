@@ -230,6 +230,9 @@ body {
     margin-left: 124px;
     margin-top: 146px;
 }
+.fact-box:hover{
+    background-color: rgb(224, 234, 234);
+}
 .box-title{
     font-size: 45px;
     font-weight: 600;
@@ -238,5 +241,68 @@ body {
 .box-description{
     font-size: 20px;
     font-weight: 600;
+    color: #727272;
+}
+ /* footer styles  */
+
+ /* sponsor styles  */
+.spo-icon{
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+    margin-top: 50px;
+
+} 
+ .spo-title{
+    text-align: center;
+    margin-top: 180px;
+    font-size: 45px;
+    font-weight: 700;
+ }
+ .spo-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    text-align: center;
+    
+ }
+ .spo-icon-1 img{
+    opacity: 0.50;
+ }
+ .spo-icon-2 img{
+    opacity: 0.50;
+ }
+ .spo-icon-3 img{
+    opacity: 0.50;
+ }
+ .spo-icon-4 img{
+    opacity: 0.50;
+ }
+ .spo-icon-5 img{
+    opacity: 0.50;
+ }
+ /* future scope style */
+
+ .scope-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+.scope-text{
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 586px;
+    height: 171px;
+    box-shadow:0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.scope-heading{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.scope-description{
+    font-size: 16px;
+    font-weight: 400;
     color: #727272;
 }
